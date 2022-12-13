@@ -9,10 +9,10 @@ public class Main {
         UE bd  = new UE("Bases de données");
         UE web = new UE("Technologies web");
         
-        bastide.ajouteEnseignement(uml, 12, 20, 20);
-        bastide.ajouteEnseignement(web,  8, 20, 30);
-        lamine.ajouteEnseignement(bd,   10, 20, 15);
-        lamine.ajouteEnseignement(web,  15, 15, 25);
+        bastide.ajouterEnseignement(uml, 12, 20, 20);
+        bastide.ajouterEnseignement(web,  8, 20, 30);
+        lamine.ajouterEnseignement(bd,   10, 20, 15);
+        lamine.ajouterEnseignement(web,  15, 15, 25);
 
         System.out.printf("Mr. %s a un total de %d heures prévues\n", bastide.getNom(), bastide.heuresPrevues());
         System.out.printf("Mr. %s a un total de %d heures prévues\n",  lamine.getNom(),  lamine.heuresPrevues());
